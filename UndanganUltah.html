@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Undangan Ulang Tahun</title>
+<body>
+     <h1><center> UNDANGAN ULANG TAHUN KE 17 </h1></center>
+     <body style="text-justify: 10px; font-family: 'Cabinet Grotesk'; font-size: medium;"background="https://h.top4top.io/p_2453yx1qa1.png">
+		
+     	<p> <center> Assalamualaikum wr wb, teman teman yang berbahagia. </p> </center>
+    <p> <center> Saya Haidar Zhafiral Haqq disini ingin mengundang kalian semua ke Acara Ulang Tahun saya yang ke 16</p> </center>
+    <p><u> <center> Berikut Informasi lebih detailnya</u></p> </center>
+
+    	<div id="timer"></div>
+<style>
+		body {
+		color: brown;
+		}
+		h1 {
+		color: #B4C6DC;
+		}
+		p {
+		color: rgb(0,0,100)
+		}
+
+#timer {
+    font-size: 3em;
+    font-weight: 100;
+    color: white;
+    padding: 20px;
+    width: 700px;
+    color: white;
+    justify-content: center;
+}
+#timer div {
+    display: inline-block;
+    min-width: 90px;
+    padding: 15px;
+    background: #A4C8D5;
+    border-radius: 10px;
+    border: 2px solid #80ADBC;
+    margin: 15px;
+    position: relative;
+        top: 50%;
+        left: 50%;
+        
+}
+#timer div span {
+    color: #CE9C9D;
+    display: block;
+    margin-top: 15px;
+    font-size: .35em;
+    font-weight: 400;
+    justify-content: center;
+}
+</style>
+<script type="text/javascript">
+	function updateTimer() {
+    future = Date.parse("sept 10, 2023 01:30:00");
+ now = new Date();
+ diff = future - now;
+
+ days = Math.floor(diff / (1000 * 60 * 60 * 24));
+ hours = Math.floor(diff / (1000 * 60 * 60));
+ mins = Math.floor(diff / (1000 * 60));
+ secs = Math.floor(diff / 1000);
+
+ d = days;
+ h = hours - days * 24;
+ m = mins - hours * 60;
+ s = secs - mins * 60;
+
+ document.getElementById("timer")
+  .innerHTML =
+  '<div>' + d + '<span>Days</span></div>' +
+  '<div>' + h + '<span>Hours</span></div>' +
+  '<div>' + m + '<span>Minutes</span></div>' +
+  '<div>' + s + '<span>Seconds</span></div>';
+}
+setInterval('updateTimer()', 1000);	
+</script>
+
+	<p> Lokasi acara
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.704839898095!2d106.66002011744385!3d-6.1702622999999965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f8ef6ab592cf%3A0x3f208fb4df980ad8!2sGg.%20Sawo%203%2C%20RT.001%2FRW.007%2C%20Poris%20Plawad%2C%20Kec.%20Cipondoh%2C%20Kota%20Tangerang%2C%20Banten!5e0!3m2!1sen!2sid!4v1663658786261!5m2!1sen!2sid" width="2000" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	    </a>
+	</p>
+
+<TABLE>
+
+<div class="input">
+            <form>
+                
+                    <div class="input-top">
+                        <input required type="text" id="name" placeholder="Name">
+                        <input required type="email" id="email" placeholder="Email">
+                    </div>
+                    <textarea required placeholder="Your Comment" id="comment" cols="270" rows="20"></textarea>
+                    <button id="button" type="submit" onclick="myFunction();">Post a Comment</button>
+            </form>
+            <ul id="comment-list">
+            
+            </ul>
+            </div>
+</TABLE>
+
+<p> <center> Kehadiran kalian sangat kami hormati. </p> </center>
+    <p> <center> Semoga kalian semua bisa hadir dalam acara ulang tahun saya.</p> </center>
+    
+     <audio src="https://l.top4top.io/m_2453tgaic1.mp4" type="audio/mpeg"autoplay="true">
+
+
+</body>
+</html>
